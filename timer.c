@@ -53,7 +53,7 @@ static int num_allocated = 0;
 };*/
 /* }}} */
 
-static function_entry timer_functions[] = {
+static zend_function_entry timer_functions[] = {
 	PHP_FE(timerGet, NULL)
 	PHP_FE(timerStart, NULL)
 	PHP_FE(timerCheckpoint, NULL)
